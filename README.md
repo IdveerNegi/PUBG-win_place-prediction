@@ -26,4 +26,5 @@ TRAINING
 I took a sample of 500,000 rows from our dataset for training our algorithm and the machine learning algorithm that I use for this problem is Random Forest. Random Forest is an ensemble of many decision tree algorithms that works with both classification and regression problems. Even without tuning the hyperparameters it gives great results all the time.
 
 Feature Importance:
+
 A feature of random forest algorithm is feature importance. Feature importance ranks the relative importance of every attribute for the prediction. The feature importance function I use from sklearn library calculates importance of attributes by seeing how much the tree nodes, that use that attribute, amount for reduction in entropy across all trees in the random forest.
