@@ -17,6 +17,7 @@ In exploratory data analysis of the PUBG real world dataset, first analyse diffe
 PREDICTION
 
 Method:
+
 First calculate the correlation to find out the whether there is relationship between attributes and the target “winPlacePerc”.
 Secondly, we would do feature engineering on the data to create 10 new attributes that would help improve our model.
 Next would be training our machine learning model on our feature set to predict the the finishing rank of players in our dataset.
@@ -24,7 +25,3 @@ Next would be training our machine learning model on our feature set to predict 
 TRAINING
 
 I took a sample of 500,000 rows from our dataset for training our algorithm and the machine learning algorithm that I use for this problem is Random Forest. Random Forest is an ensemble of many decision tree algorithms that works with both classification and regression problems. Even without tuning the hyperparameters it gives great results all the time.
-
-Feature Importance:
-
-A feature of random forest algorithm is feature importance. Feature importance ranks the relative importance of every attribute for the prediction. The feature importance function I use from sklearn library calculates importance of attributes by seeing how much the tree nodes, that use that attribute, amount for reduction in entropy across all trees in the random forest.
